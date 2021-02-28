@@ -114,10 +114,6 @@ class Motion:
         pass
 
 
-
-# Tx를 보낸 후 응답을 받을 때 까지 Lock을 걸기 반대쪽에서 보낸 Rx가 유실 될 수도 있으니, 일정시간이 지나도 답이 안오면 재요청
-
-
 if __name__ == '__main__':
     temp = Motion()
     temp.init()
